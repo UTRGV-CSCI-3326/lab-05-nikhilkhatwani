@@ -6,7 +6,7 @@ public class Main {
         
         String name;
         int age;
-        int weight;
+        float weight;
         boolean smoker;
         
         System.out.print("Enter name: ");
@@ -16,7 +16,7 @@ public class Main {
         age = input.nextInt();
 
         System.out.print("Enter weight: ");
-        weight = input.nextInt();
+        weight = input.nextFloat();
 
         System.out.print("Do you smoke? Y or N: ");
         smoker = input.next().equals("Y");
